@@ -19,7 +19,7 @@ class MyDocument extends Document {
   }
 }
 
-//関数はString型でないとダメ。
+//function must type:String
 const themeInitializerScript = `(function() {
 	${setInitialColorMode.toString()}
 	setInitialColorMode();
@@ -27,9 +27,9 @@ const themeInitializerScript = `(function() {
 `;
 
 function setInitialColorMode() {
-  // 最初のpreferenceを確認して、darkかlightの文字列を返す関数
+  // check preference and return dark or light
   function getInitialColorMode() {
-    //ストレージからthemeは取得する。
+    //Get theme from strage
     const persistedPreferenceMode = window.localStorage.getItem("theme");
     const hasPersistedPreference = typeof persistedPreferenceMode === "string";
 

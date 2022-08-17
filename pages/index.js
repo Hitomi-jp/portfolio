@@ -54,9 +54,18 @@ export default function Home() {
       <Layout>
         <section className={utilStyles.headingProfile}></section>
         <div className={utilStyles.letterProfile}>
-          <Link href='/profile'>
-            <p className={utilStyles.font}>profile</p>
-          </Link>
+          <ul>
+            <li>
+              <Link href='/profile'>
+                <p>Profile</p>
+              </Link>
+            </li>
+            <li>
+              <Link href='/blog'>
+                <p>Blog</p>
+              </Link>
+            </li>
+          </ul>
         </div>
       </Layout>
     </div>

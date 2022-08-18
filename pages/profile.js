@@ -1,4 +1,3 @@
-import styles from "../styles/profile.module.css";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 import { HomeOutlined } from "@ant-design/icons";
@@ -6,7 +5,7 @@ import { HomeOutlined } from "@ant-design/icons";
 const Profile = () => {
   return (
     <div>
-      <div className={styles.container}>
+      <div>
         <Link href='/'>
           <a className={utilStyles.font}>
             <HomeOutlined />

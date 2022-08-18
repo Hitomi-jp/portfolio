@@ -15,7 +15,7 @@ function Layout({ children }) {
         <h1 className={utilStyles.heading2Xl}>{name}</h1>
         <br />
         <h1 className={utilStyles.headingMd}>
-          Utvikler(Fullstuck, Frontend, Backend)
+          Junior Utvikler (Fullstuck, Frontend, Backend)
         </h1>
       </header>
       <main>{children}</main>

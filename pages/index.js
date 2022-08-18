@@ -65,6 +65,11 @@ export default function Home() {
                 <p>Blog</p>
               </Link>
             </li>
+            <li>
+              <Link href=''>
+                <p>Applications</p>
+              </Link>
+            </li>
           </ul>
         </div>
       </Layout>
